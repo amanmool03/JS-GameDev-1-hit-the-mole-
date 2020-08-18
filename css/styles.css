@@ -135,7 +135,15 @@ header{
     }
 
     .hit{
+        background: url(../Assets/pow.jpg);
         height: 80px;
         width:80px;
+        background-size: contain;
+        position: absolute;
+        pointer-events: none;
+        left: 50%;
+        opacity: 0;
+        transform: translateX(-50%);
+        top: 50%;
     }
 }
