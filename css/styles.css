@@ -133,4 +133,9 @@ header{
     body{
         cursor: none;
     }
+
+    .hit{
+        height: 80px;
+        width:80px;
+    }
 }
